@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="2dp"
+        android:backgroundTint="#C82929"
+        app:icon="@drawable/baseline_arrow_back_ios_24" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/calculatorButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="322dp"
+        android:layout_marginTop="2dp"
+        android:backgroundTint="#C82929"
+        android:paddingLeft="13dp"
+        android:paddingRight="16dp"
+        android:src="@drawable/baseline_arrow_back_ios_24"
+        android:text="Home"
+        app:cornerRadius="25dp"
+        app:icon="@drawable/baseline_event_note_24"
+        app:iconGravity="start" />
+
+    <EditText
+        android:id="@+id/editTextCarbRatio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="350dp"
+        android:hint="Enter Carbohydrate Ratio"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextGlucoseReading"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="290dp"
+        android:hint="Enter Glucose Reading"
+        android:inputType="numberDecimal" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCondition1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="200dp"
+        android:text="Less than 3h since last dose" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCondition2"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="120dp"
+        android:text="Less than 3h since last meal/low glucose treatment" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCondition3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="80dp"
+        android:text="Less than 1h since last exercise" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCondition4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="160dp"
+        android:text="Bedtime or Night right now" />
+
+    <Spinner
+        android:id="@+id/insulinTimingSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="260dp"
+        android:text="Select Insulin Timing" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="420dp"
+        android:gravity="center"
+        android:text="Result"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="#C82929"
+        android:textColor="@color/white"
+        android:text="Save to Logs" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textViewResult" type="id" />
+    <item name="buttonDone" type="id" />
+    <item name="insulinTimingSpinner" type="id" />
+    <item name="checkBoxCondition4" type="id" />
+    <item name="checkBoxCondition3" type="id" />
+    <item name="checkBoxCondition2" type="id" />
+    <item name="checkBoxCondition1" type="id" />
+    <item name="editTextGlucoseReading" type="id" />
+    <item name="editTextCarbRatio" type="id" />
+    <item name="homeButton" type="id" />
+    <item name="buttonReturn" type="id" />
+    <item name="calculatorButton" type="id" />
+</resources>
